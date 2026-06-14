@@ -1,0 +1,36 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="leafGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8FAF8A" />
+      <stop offset="100%" stop-color="#DCE7D9" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" rx="32" fill="#F5F5F5" />
+  <circle cx="580" cy="140" r="80" fill="url(#leafGradient)" opacity="0.6" />
+  <circle cx="240" cy="340" r="120" fill="#DCE7D9" opacity="0.7" />
+  <path
+    d="M530 360 C580 260 700 260 730 150 C720 260 650 320 600 400 Z"
+    fill="#8FAF8A"
+    opacity="0.8"
+  />
+  <rect x="120" y="120" width="260" height="220" rx="16" fill="#FFFFFF" />
+  <rect x="140" y="145" width="120" height="12" rx="6" fill="#8FAF8A" />
+  <rect x="140" y="175" width="200" height="10" rx="5" fill="#DCE7D9" />
+  <rect x="140" y="195" width="180" height="10" rx="5" fill="#DCE7D9" />
+  <rect x="140" y="215" width="140" height="10" rx="5" fill="#DCE7D9" />
+  <rect x="140" y="250" width="80" height="24" rx="12" fill="#8FAF8A" />
+  <rect x="230" y="250" width="80" height="24" rx="12" fill="#2D2D2D" fill-opacity="0.06" />
+  <circle cx="340" cy="260" r="10" fill="#8FAF8A" />
+  <circle cx="360" cy="260" r="10" fill="#DCE7D9" />
+  <circle cx="380" cy="260" r="10" fill="#8FAF8A" />
+  <text
+    x="140"
+    y="285"
+    font-size="10"
+    font-family="Inter, system-ui, sans-serif"
+    fill="#2D2D2D"
+    opacity="0.6"
+  >
+    Simulación, datos y naturaleza en equilibrio.
+  </text>
+</svg>
