@@ -1,11 +1,14 @@
 {
+  "homepage": "https://lahojarasca.github.io/",
   "name": "la-hojarasca",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "npx push-dir --dir=dist --branch=gh-pages --cleanup --allow-unclean"
   },
   "dependencies": {
     "react": "^18.3.1",
