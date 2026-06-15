@@ -52,8 +52,8 @@ const router = createBrowserRouter([
     ]
   }
 ], {
-  
-  basename: '/' 
+  // Esto le dice a React Router que la raíz real de la app es /LaHojarasca/
+  basename: '/LaHojarasca' 
 });
 
 export default router;
